@@ -1,0 +1,27 @@
+
+how to run the file
+python simulator.py notfixed 2 100000000 4 200 20 7
+python simulator.py fixed 1 100000000 4 500 20 7
+
+
+eight arguments in total
+
+first name of file
+second json file selection
+third experiment number
+fourth simulation time in miliseconds
+fifth is for number of base stations
+sixth for number of sensors
+seventh for payload in bytes
+eight( please input only for experiment 1) for spreading factor assigning
+note:
+if user wants to run with provided fixed and not fixed files type no
+New can be created by typing yes 
+
+
+
+prerequisite:
+pip has to be installed
+numpy has to be installed
+simpy has to be installed
+matplotlib has to be installed
